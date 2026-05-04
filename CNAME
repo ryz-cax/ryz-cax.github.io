@@ -1,1 +1,4 @@
-crabwithknife.com
+Type: CNAME
+Name: www
+Target: ryz-cax.github.io
+Proxy: DNS only
