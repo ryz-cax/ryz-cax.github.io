@@ -29,7 +29,17 @@
     p.subtitle {
       font-size: 1.2rem;
       color: #94a3b8;
-      margin-bottom: 40px;
+      margin-bottom: 30px;
+    }
+
+    /* 🦀 HERO IMAGE */
+    .hero-img {
+      width: 100%;
+      max-width: 420px;
+      border-radius: 16px;
+      margin: 20px auto 40px auto;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+      display: block;
     }
 
     .cta-buttons {
@@ -37,7 +47,7 @@
       flex-wrap: wrap;
       justify-content: center;
       gap: 15px;
-      margin-bottom: 60px;
+      margin-bottom: 40px;
     }
 
     .btn {
@@ -85,19 +95,25 @@
 
     .card h3 {
       margin-top: 0;
-      margin-bottom: 10px;
+      margin-bottom: 15px;
       font-size: 1.1rem;
     }
 
+    /* 🔘 BUTTON STYLE FOR LINKS */
     .card a {
-      color: #38bdf8;
+      display: inline-block;
+      background: #38bdf8;
+      color: #0f172a;
+      padding: 10px 14px;
+      border-radius: 8px;
       text-decoration: none;
-      font-size: 0.95rem;
-      word-break: break-word;
+      font-weight: bold;
+      font-size: 0.9rem;
+      transition: 0.2s;
     }
 
     .card a:hover {
-      text-decoration: underline;
+      background: #0ea5e9;
     }
 
     footer {
@@ -113,9 +129,17 @@
   <div class="container">
 
     <h1>Crab With Knife</h1>
+
     <p class="subtitle">
       A community-driven token with sharp utility and even sharper memes.
     </p>
+
+    <!-- 🦀 IMAGE -->
+    <img 
+      class="hero-img"
+      src="https://cdn.dexscreener.com/cms/images/4905d85bb3a8cf060ba7216832588c0fd03a0e0698b6d7511b8f8b73e0836b76?width=128&height=128&fit=crop&quality=95&format=auto"
+      alt="Crab With Knife"
+    />
 
     <!-- CTA -->
     <div class="cta-buttons">
@@ -133,28 +157,28 @@
       <div class="card">
         <h3>Obsidian Finance</h3>
         <a href="https://obsidian.finance/?outputCurrency=0xC84398E9BBBC028BA81e61D2c45194049D0173Ef" target="_blank">
-          Trade CRAB → Obsidian
+          Trade Now
         </a>
       </div>
 
       <div class="card">
         <h3>WolfSwap</h3>
         <a href="https://wolfswap.app/swap?chainId=25&sellToken=0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE&buyToken=0xC84398E9BBBC028BA81e61D2c45194049D0173Ef" target="_blank">
-          Swap on WolfSwap
+          Swap CRAB
         </a>
       </div>
 
       <div class="card">
         <h3>VVS Finance</h3>
         <a href="https://vvs.finance/trade/swap?inputCurrency=cro&outputCurrency=0xC84398E9BBBC028BA81e61D2c45194049D0173Ef&exactAmount=0&exactField=input" target="_blank">
-          Trade on VVS Finance
+          Trade CRAB
         </a>
       </div>
 
       <div class="card">
         <h3>Community</h3>
         <a href="https://discord.gg/xPN4CUfER7" target="_blank">
-          Join Discord Community
+          Join Discord
         </a>
       </div>
 
