@@ -82,10 +82,12 @@
     }
 
     /* 📊 CHART */
-    .chart {
+    .chart-wrapper {
   margin: 40px auto;
   width: 100%;
-  height: 800px;
+  height: 800px; 
+  max-width: 1000px;
+
   border-radius: 12px;
   overflow: hidden;
   border: 1px solid #1f2937;
@@ -93,8 +95,8 @@
 
 /* 📱 MOBILE OVERRIDE */
 @media (max-width: 768px) {
-  .chart {
-    height: 380px;
+  .chart-wrapper {
+    height: 380px !important; 
   }
 }
 
